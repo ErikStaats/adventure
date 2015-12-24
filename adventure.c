@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 /*
  * Layout:
@@ -505,7 +507,7 @@ void doLocation11()
     doMove();
 }
 
-main()
+int main()
 {
     printf("The king calls out to all knights of the land.\n");
     sleep(2*delay);
